@@ -22,6 +22,7 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+pip-selfcheck.json
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -55,3 +56,12 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Vagrant
+.vagrant
+
+# Virtualenv Stuff
+bin/
+include/
+local/
+
